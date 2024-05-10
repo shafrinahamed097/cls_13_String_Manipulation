@@ -4,12 +4,12 @@ $message = "Quick Brown Fox Jumps Over The Lazy Dog";
 
 // find out each character count
 
-$characterCount =[];
+$characterCount = [];
 
 $characterArray = str_split($message);
 
 foreach ($characterArray as $char) {
-  if(isset($characterArray[$char])) {
+  if(isset($characterCount[$char])) {
     $characterCount[$char]++;
   } else{
     $characterCount[$char] = 1;
