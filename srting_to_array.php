@@ -4,7 +4,7 @@
 
 $string = "hello from world";
 $stringWords = explode(", ", $string);
-$backtoSring = implode(", ", $stringWords);
+$backtoString = implode(", ", $stringWords);
 
 print_r($stringWords);
-print_r($backtoSring);
+print_r($backtoString);
