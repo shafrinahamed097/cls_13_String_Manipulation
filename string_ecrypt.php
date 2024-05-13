@@ -12,7 +12,7 @@
 
 */
 
-$message = "I Love You";
+
 
 function encrypt($message){
     $message = str_split($message);
@@ -23,7 +23,7 @@ function encrypt($message){
     return $newMessage;
 }
 
-echo encrypt($message) ."\n";
+echo encrypt("I Love You") ."\n";
 
 
 // reverse of this function
