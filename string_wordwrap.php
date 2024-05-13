@@ -7,4 +7,8 @@
 
 */
 $message = "Lorem ipsum dolor sit amet eeeeeeeconsectetur adipisicing elit. Eligendi tenetur nam adipisci eum pariatur expedita veritatis amet vitae. Asperiores possimus blanditiis autem sapiente ex. Possimus iste cum explicabo deleniti ut.";
-echo wordwrap($message,20,"\n", false);
+// echo wordwrap($message,20,"\n", false);
+
+// chunk split
+
+echo chunk_split($message, 10, "|");
