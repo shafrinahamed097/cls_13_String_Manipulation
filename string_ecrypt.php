@@ -23,5 +23,18 @@ function encrypt($message){
     return $newMessage;
 }
 
-echo encrypt($message);
+echo encrypt($message) ."\n";
 
+
+// reverse of this function
+
+function decrypt($message){
+    $message = str_split($message);
+    $newMessage = "";
+    foreach($message as $char){
+        $newMessage .= chr(ord($char)-1);
+    }
+    return $newMessage;
+}
+
+echo decrypt("J!Mpwf!Zpv");
